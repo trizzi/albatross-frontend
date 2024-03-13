@@ -6,13 +6,13 @@ export const useTheme = () => useContext(ThemeContext);
 export const ThemeContextProvider = ({ children }) => {
 	const [theme, setTheme] = useState({
 		primary: {
-			purple: '#9932CC',
+			blue: '#4169E1',
 		},
 		secondary: {
 			grey: '#eee',
 		},
 		backgroundcolor: {
-			primary: '000000',
+			primary: '#000000',
 		},
 		textcolor: {
 			light: '#ffffff',
