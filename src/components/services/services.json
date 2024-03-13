@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Music Events",
+        "icon": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710329554/Albatross/Services/Button_8_skjwai.svg",
+        "text": "We specialize in creating immersive audio visual environments that bring music to life. Whether you're hosting a concert, festival, or live performance, we're here to enhance the experience with state-of-the-art sound systems, dynamic lighting, and stunning visuals that captivate audiences and leave a lasting impression. Trust us to deliver a seamless and unforgettable music event that exceeds your expectations and leaves your audience wanting more"
+    },
+    {
+        "id": 2,
+        "name": "Corporate Events",
+        "icon": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710329555/Albatross/Services/Button_9_xtlqme.svg",
+        "text": "We understand the importance of professionalism and precision when it comes to corporate events. From conferences and meetings to product launches and trade shows, we're committed to delivering tailored audio visual solutions that reflect your brand's identity and objectives. With our expertise and attention to detail, you can trust us to create a seamless and impactful corporate event experience that leaves a lasting impression on your clients and partners"
+    },
+    {
+        "id": 3,
+        "name": "Parties",
+        "icon": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710329557/Albatross/Services/Button_10_rkbwmu.svg",
+        "text": "Planning a party? Let Albatross take it to the next level with our immersive audio visual solutions. Whether it's a birthday bash, anniversary celebration, or holiday party, we'll transform your venue into a vibrant and dynamic space with our state-of-the-art sound systems, dazzling lighting effects, and engaging visuals. Let us create an unforgettable party experience that wows your guests and makes memories that last a lifetime."
+    },
+    {
+        "id": 4,
+        "name": "Other Events",
+        "icon": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710329559/Albatross/Services/Button_11_lr6woo.svg",
+        "text": "We're not just limited to music events, corporate gatherings, or parties. We're your go-to audio visual experts for any occasion, big or small. Whether you're planning a wedding, fundraiser, charity event, or community festival, we have the expertise and resources to bring your vision to life. With our customizable solutions and client-centric approach, you can trust us to elevate any event and create a memorable experience for you and your guests"
+    }
+    
+]

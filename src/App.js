@@ -7,6 +7,8 @@ import Showcase from './components/showcase/Showcase';
 import About from './components/about/About';
 import Services from './components/services/Services';
 import Equipments from './components/equipments/Equipments';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 import './App.css';
 
@@ -47,7 +49,13 @@ function App() {
 						path='/equipments'
 						element={<Equipments />}
 					/>
+					<Route
+						exact
+						path='/contact'
+						element={<Contact />}
+					/>
 				</Routes>
+				<Footer />
 			</Router>
 		</div>
 	);

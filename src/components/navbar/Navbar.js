@@ -5,7 +5,7 @@ import Button from '../button/Button';
 
 const Navbar = () => {
 	return (
-		<div className='flex justify-between items-center min-h-0 relative shadow-md container mx-auto'>
+		<nav className='flex justify-between items-center min-h-0 relative shadow-md container mx-auto'>
 			<div className='w-48 p-6'>
 				<Image
 					cloudName='dfxjyw2aq'
@@ -14,27 +14,30 @@ const Navbar = () => {
 			</div>
 			<div>
 				<ul className='pr-8 md:flex space-x-5 lg:space-x-16 items-center text-white'>
-					<li className='hover:text-gray-400'>
+					<li className='hover:text-sky-600'>
 						<Link to='/'>Home</Link>
 					</li>
-					<li className='hover:text-gray-400'>
+					<li className='hover:text-sky-600'>
 						<Link to='about'>About</Link>
 					</li>
-					<li className='hover:text-gray-400'>
+					<li className='hover:text-sky-600'>
 						<Link to='/services'>Services</Link>
 					</li>
-					<li className='hover:text-gray-400'>
+					<li className='hover:text-sky-600'>
 						<Link to='/equipments'>Equipments</Link>
 					</li>
+
 					<li className='mt-[-1rem]'>
-						<Button
-							text={'Contact'}
-							background
-						/>
+						<Link to='/contact'>
+							<Button
+								text={'Contact'}
+								background
+							/>
+						</Link>
 					</li>
 				</ul>
 			</div>
-		</div>
+		</nav>
 	);
 };
 
