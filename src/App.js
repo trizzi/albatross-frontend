@@ -31,6 +31,7 @@ function App() {
 						element={
 							<Suspense fallback={<Loading />}>
 								<Showcase />
+								<Services />
 							</Suspense>
 						}
 					/>
@@ -39,11 +40,11 @@ function App() {
 						path='/about'
 						element={<About />}
 					/>
-					<Route
+					{/* <Route
 						exact
 						path='/services'
 						element={<Services />}
-					/>
+					/> */}
 					<Route
 						exact
 						path='/equipments'

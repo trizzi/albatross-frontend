@@ -16,7 +16,7 @@ const Footer = () => {
 					<div className='w-full min-h-0 flex items-center space-x-2'>
 						<Image
 							cloudName='dfxjyw2aq'
-							publicId='https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710241865/Albatross/Logo/nav-logo.svg'
+							publicId='https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710238904/Albatross/Logo/ALBATROSS_LOGO_cu7xja.svg'
 							className='w-12 h-12'
 							alt='logo'
 						/>
@@ -32,18 +32,26 @@ const Footer = () => {
 					<small className='mt-6'>
 						&copy; Albatross Services 2024. All rights reserved
 					</small>
-					<div className='flex space-x-2 pt-2 text-white'>
-						<a href='https://www.linkedin.com/username'>
-							<i class='fa-brands fa-linkedin-in'></i>
+					<div className='flex space-x-2 pt-2 text-white '>
+						<a
+							href='https://www.linkedin.com/username'
+							className='hover:text-sky-600'>
+							<i className='fa-brands fa-linkedin-in'></i>
 						</a>
-						<a href='https://www.facebook.com'>
-							<i class='fa-brands fa-facebook'></i>
+						<a
+							href='https://www.facebook.com'
+							className='hover:text-sky-600'>
+							<i className='fa-brands fa-facebook'></i>
 						</a>
-						<a href='https://www.twitter.com'>
-							<i class='fa-brands fa-twitter'></i>
+						<a
+							href='https://www.twitter.com'
+							className='hover:text-sky-600'>
+							<i className='fa-brands fa-twitter'></i>
 						</a>
-						<a href='https://www.instagram.com'>
-							<i class='fa-brands fa-instagram'></i>
+						<a
+							href='https://www.instagram.com'
+							className='hover:text-sky-600'>
+							<i className='fa-brands fa-instagram'></i>
 						</a>
 					</div>
 				</div>

@@ -13,7 +13,7 @@ const Showcase = () => {
 				width: '100%',
 				height: '100vh',
 			}}
-			className='flex flex-col md:flex-row justify-center  md:container md:mx-auto items-center py-44'>
+			className='flex flex-col md:flex-row justify-center  md:container md:mx-auto items-center py-44 px-8'>
 			<img
 				src={companyText}
 				alt='company text'

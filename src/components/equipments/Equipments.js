@@ -16,19 +16,20 @@ const Equipments = () => {
 					width: '100%',
 					height: '45vh',
 				}}>
-				<div className='flex flex-col'>
-					<h1>Equipment</h1>
-					<p>
+				<div className='flex flex-col justify-center items-center space-y-7 p-36 '>
+					<h1 className='text-5xl'>Equipments</h1>
+					<p className='px-36'>
 						We believe that the right equipment is essential for creating
-						unforgettable audio visual experiences. That's why we offer a
+						unforgettable audio visual experiences. That's why we offer <br />a
 						comprehensive selection of state-of-the-art equipment designed to
-						meet the needs of any event, big or small. Whether you're planning a
-						corporate conference, music festival, wedding, or private party, we
-						have everything you need to bring your vision to life.
+						meet the needs of any event, big <br />
+						or small. Whether you're planning a corporate conference, music
+						festival, wedding, or private party, <br />
+						we have everything you need to bring your vision to life.
 					</p>
 				</div>
 			</div>
-			<div>
+			<div className='flex flex-wrap md:p-20 justify-center'>
 				{equipments.map((equipment) => (
 					<EquipmentItems
 						key={equipment.id}
@@ -43,7 +44,7 @@ const Equipments = () => {
 					backgroundSize: 'cover',
 					backgroundPosition: 'center',
 					width: '100%',
-					height: '50vh',
+					height: '45vh',
 				}}>
 				<div className='flex flex-col'>
 					<h1>All Available</h1>
@@ -57,7 +58,7 @@ const Equipments = () => {
 						equipment to bring your vision to life.
 					</p>
 				</div>
-				<div>
+				<div className='container mx-auto py-10 lg:py-32 flex justify-center'>
 					<ContactCard />
 				</div>
 			</div>

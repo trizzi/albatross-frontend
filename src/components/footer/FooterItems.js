@@ -9,7 +9,7 @@ function FooterItem({ category }) {
 			{category.items.map((item) => (
 				<li
 					key={item.text}
-					className='pt-2'>
+					className='pt-2 hover:text-sky-600'>
 					<a href={item.link}> {item.text} </a>
 				</li>
 			))}
