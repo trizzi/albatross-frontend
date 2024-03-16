@@ -46,9 +46,9 @@ const Equipments = () => {
 					width: '100%',
 					height: '45vh',
 				}}>
-				<div className='flex flex-col'>
-					<h1>All Available</h1>
-					<p>
+				<div className='flex flex-col justify-center items-center space-y-7 p-36 '>
+					<h1 className='text-5xl'>All Available</h1>
+					<p className='px-36'>
 						We're proud to offer a wide range of top-of-the-line audio visual
 						equipment available for hire. Whether you're planning a corporate
 						event, wedding, concert, or private party, we have everything you
@@ -58,9 +58,10 @@ const Equipments = () => {
 						equipment to bring your vision to life.
 					</p>
 				</div>
-				<div className='container mx-auto py-10 lg:py-32 flex justify-center'>
-					<ContactCard />
-				</div>
+			</div>
+
+			<div className='container flex justify-center mx-auto py-10 lg:py-32 '>
+				<ContactCard />
 			</div>
 		</div>
 	);

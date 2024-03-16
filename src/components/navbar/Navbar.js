@@ -20,6 +20,7 @@ const Navbar = () => {
 				<Image
 					cloudName='dfxjyw2aq'
 					publicId='https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710241865/Albatross/Logo/nav-logo.svg'
+					alt='logo'
 				/>
 			</div>
 
@@ -89,6 +90,18 @@ const Navbar = () => {
 								duration={500}
 								onClick={closeMenu}>
 								Equipments
+							</Link>
+						</li>
+						<li className=''>
+							<Link
+								to='/contact'
+								smooth={true}
+								duration={500}
+								onClick={closeMenu}>
+								<Button
+									text={'Contact'}
+									background
+								/>
 							</Link>
 						</li>
 					</ul>

@@ -7,7 +7,7 @@ const Showcase = () => {
 	return (
 		<div
 			style={{
-				backgroundImage: `url('https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710238918/Albatross/Landing%20page%20images/Property_1_EQUIPMENT_1_1_kcyyfe.svg')`,
+				backgroundImage: `url('https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710238919/Albatross/Landing%20page%20images/Property_1_EVENT_3_1_hgwclj.svg')`,
 				backgroundSize: 'cover',
 				backgroundPosition: 'center',
 				width: '100%',
