@@ -14,8 +14,9 @@ const Services = () => {
 					<img
 						src={imageText}
 						alt='service-text'
+						className='px-14'
 					/>
-					<p className='px-32'>
+					<p className='px-16 md:px-32'>
 						We understand that no two events are alike. That's why we offer
 						solutions designed to meet your specific needs and exceed your
 						expectations. <br />
@@ -25,7 +26,7 @@ const Services = () => {
 						<br /> and unmatched attention to detail.
 					</p>
 				</div>
-				<div className='flex flex-wrap p-8 md:p-20 justify-center'>
+				<div className='flex flex-wrap p-4 md:p-20 justify-center'>
 					{services.map((service) => (
 						<ServiceItems
 							key={service.id}

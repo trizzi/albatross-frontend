@@ -16,8 +16,8 @@ const ContactCard = () => {
 					width: '100%',
 					height: '50vh',
 				}}>
-				<div className='pl-32'>
-					<h2 className='text-3xl xl:text-4xl font-black pb-4'>
+				<div className='p-14 md:pl-32'>
+					<h2 className='text-2xl md:text-4xl font-black pb-4'>
 						Let’s Discuss how to <br />
 						make your upcoming <br />
 						event remarkable
@@ -34,7 +34,7 @@ const ContactCard = () => {
 						/>
 					</Link>
 				</div>
-				<div className='pr-32'>
+				<div className='pr-32 hidden md:block'>
 					<img
 						src={contactCardImage}
 						alt='Contact-Card-Images'
