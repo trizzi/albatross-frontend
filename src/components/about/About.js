@@ -16,9 +16,9 @@ const About = () => {
 					width: '100%',
 					height: '45vh',
 				}}>
-				<div className='flex flex-col justify-center items-center space-y-7 p-36 '>
-					<h1 className='text-5xl'>About Us</h1>
-					<p className='px-36'>
+				<div className='flex flex-col justify-center items-center space-y-7 p-8 md:p-36 '>
+					<h1 className='text-3xl md:text-5xl'>About Us</h1>
+					<p className='px-8 md:px-36'>
 						we're passionate about creating unforgettable audio visual
 						experiences that captivate audiences and
 						<br /> elevate events to new heights. With years of expertise in the

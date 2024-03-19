@@ -2,39 +2,41 @@ import React from 'react';
 
 const AboutItems = ({ about: { name, images, text, icon, featured } }) => {
 	return (
-		<div className='flex justify-between items-center px-44 py-20'>
+		<div className='flex flex-col w-full md:flex-row justify-between items-center py-10 md:px-44 md:py-20'>
 			{!featured ? (
 				<>
-					<div className='w-1/2'>
+					<div className='p-16 md:p-0 md:w-1/2'>
 						<img
 							src={images}
 							alt='About-images'
 						/>
 					</div>
-					<div className='w-1/2 flex flex-col px-10'>
-						<div className='flex justify-start m-0 p-0'>
+					<div className='md:w-1/2 flex flex-col md:px-10'>
+						<div className='flex pl-10 md:pl-0'>
 							<img
 								src={icon}
 								alt='About-icons'
+								className='w-20 h-20 object-cover'
 							/>
-							<h1 className='pt-2'>{name}</h1>
+							<h1 className='pt-1 mt-0'>{name}</h1>
 						</div>
-						<p>{text}</p>
+						<p className='px-16 md:px-0'>{text}</p>
 					</div>
 				</>
 			) : (
 				<>
-					<div className='w-1/2 flex flex-col px-10'>
-						<div className='flex justify-start m-0 p-0'>
+					<div className='md:w-1/2 flex flex-col md:px-10'>
+						<div className='flex pl-10 md:pl-0'>
 							<img
 								src={icon}
 								alt='About-icons'
+								className='w-20 h-20 object-cover'
 							/>
 							<h1 className='pt-2'>{name}</h1>
 						</div>
-						<p>{text}</p>
+						<p className='px-16 md:px-0'>{text}</p>
 					</div>
-					<div className='w-1/2 pl-8'>
+					<div className='p-16 md:p-0 md:w-1/2 md:pl-14'>
 						<img
 							src={images}
 							alt='About-images'
