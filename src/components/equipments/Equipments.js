@@ -16,20 +16,19 @@ const Equipments = () => {
 					width: '100%',
 					height: '45vh',
 				}}>
-				<div className='flex flex-col justify-center items-center space-y-7 p-36 '>
-					<h1 className='text-5xl'>Equipments</h1>
-					<p className='px-36'>
+				<div className='flex flex-col justify-center items-center space-y-7 p-8 md:p-36 '>
+					<h1 className='text-3xl md:text-5xl'>Equipments</h1>
+					<p className='px-4 md:px-36'>
 						We believe that the right equipment is essential for creating
-						unforgettable audio visual experiences. That's why we offer <br />a
+						unforgettable audio visual experiences. That's why we offer a
 						comprehensive selection of state-of-the-art equipment designed to
-						meet the needs of any event, big <br />
-						or small. Whether you're planning a corporate conference, music
-						festival, wedding, or private party, <br />
-						we have everything you need to bring your vision to life.
+						meet the needs of any event, big or small. Whether you're planning a
+						corporate conference, music festival, wedding, or private party, we
+						have everything you need to bring your vision to life.
 					</p>
 				</div>
 			</div>
-			<div className='flex flex-wrap md:p-20 justify-center'>
+			<div className='flex flex-wrap p-8 md:p-20 justify-center'>
 				{equipments.map((equipment) => (
 					<EquipmentItems
 						key={equipment.id}
@@ -44,11 +43,11 @@ const Equipments = () => {
 					backgroundSize: 'cover',
 					backgroundPosition: 'center',
 					width: '100%',
-					height: '45vh',
+					height: '50vh',
 				}}>
-				<div className='flex flex-col justify-center items-center space-y-7 p-36 '>
-					<h1 className='text-5xl'>All Available</h1>
-					<p className='px-36'>
+				<div className='flex flex-col justify-center items-center space-y-7 p-8 md:p-36 '>
+					<h1 className='text-3xl md:text-5xl'>All Available</h1>
+					<p className='px-4 md:px-36'>
 						We're proud to offer a wide range of top-of-the-line audio visual
 						equipment available for hire. Whether you're planning a corporate
 						event, wedding, concert, or private party, we have everything you
