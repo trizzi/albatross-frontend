@@ -1,0 +1,49 @@
+[
+    {
+        "title":"COMPANY",
+        "items":[
+            {
+                "text":"About",
+                "link": "/about"
+            },
+            {
+                "text":"Equipments",
+                "link": "/equipments"
+            }
+        ]
+    },
+    {
+        "title":"CONTACT US",
+        "items":[
+            {
+                "text":"Facebook",
+                "link": "https://www.facebook.com/"
+            },
+            {
+                "text":"Twitter",
+                "link": "https://twitter.com/"
+            },
+            {
+                "text":"Instagram",
+                "link": "https://www.instagram.com/"
+            },
+            {
+                "text":"LinkedIn",
+                "link": "https://www.linkedin.com/company/"
+            }
+        ]
+    },
+    {
+        "title":"HELP",
+        "items":[
+            {
+                "text":"Help Center",
+                "link": "/contact"
+            },
+            {
+                "text":"Contact Support",
+                "link": "/contact"
+            }
+        ]
+    }
+]

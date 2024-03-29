@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Speakers",
+        "image": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710337660/Albatross/Equipments/photo1710337492_3_r1vlu0.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Analogue Mixers",
+        "image": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710337657/Albatross/Equipments/photo1710337492_2_ktqkfk.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Digital Mixers",
+        "image": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710337654/Albatross/Equipments/photo1710337492_1_cfmqsl.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Cameras",
+        "image": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710337652/Albatross/Equipments/photo1710337492_deflps.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Microphone",
+        "image": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710337663/Albatross/Equipments/photo1710337492_4_z5p3ub.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Tripods",
+        "image": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710338145/Albatross/Equipments/photo1710338035_am4fjg.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Stage Lights",
+        "image": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710337646/Albatross/Equipments/photo1710337429_xuj39f.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Video Transmitters",
+        "image": "https://res.cloudinary.com/dfxjyw2aq/image/upload/v1710338133/Albatross/Equipments/photo1710338053_u8bhmm.jpg"
+    }
+]
