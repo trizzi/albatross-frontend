@@ -43,7 +43,7 @@ const Equipments = () => {
 					backgroundSize: 'cover',
 					backgroundPosition: 'center',
 					width: '100%',
-					height: '50vh',
+					height: '45vh',
 				}}>
 				<div className='flex flex-col justify-center items-center space-y-7 p-8 md:p-36 '>
 					<h1 className='text-3xl md:text-5xl'>All Available</h1>
